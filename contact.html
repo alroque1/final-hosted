@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Oasis | Contact</title>
+        <meta name="author" content="Angela Roque">
+        <meta name="description" content="------">
+        <!-- FAVICON CODE  -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- ADOBE FONTS IMPORT -->
+        <link rel="stylesheet" href="https://use.typekit.net/ssy8ycc.css">
+
+        <!-- LINK TO EXTERNAL STYLESHEET -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<!-- option 1 contact page -->
+    <body>
+        <header>
+            <!-- H1 NAME OF RESORT -->
+            <h1><a href="index.html" aria-label="go to contact page">Swiss Oasis | Contact</a></h1>
+            <!-- NAV: HOME, ACCOMMODATIONS (add placeholder link), CONTACT -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#accommodations">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <img id="swiss-valley-img" src="images/swiss-valley.jpg" alt="A beautiful resort in the valley of the Swiss Alps available any time of the year." width="1440" height="560">
+
+        <main class="contact-grid">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="A one of a kind sunset you can only find in Swiss Oasis" width="710" height="270">
+            
+            <section id="form-controls">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label id="my-name" for="my-name">Full Name (First and Last) <span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label id="my-email" for="my-email">Email Address <span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label id="my-phone" for="my-phone">Phone Number <span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend><span class="required">Preferred Contact Method*</span class="required"></legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label id="my-comments" for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit">
+                </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Swiss Oasis</p>
+            <p>This Site is For Educational Purposes Only</p>
+        </footer>
+    </body>
+</html>
